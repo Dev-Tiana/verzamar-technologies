@@ -19,6 +19,15 @@ async function startServer() {
     res.set("Cache-Control", "no-store").type("application/javascript").send(publicPlatformScript());
   });
   registerOAuthRoutes(app);
+  const publicPaths = new Set([
+    "/", "/services", "/services/business-websites", "/services/website-redesign",
+    "/services/landing-pages", "/services/seo-visibility", "/services/conversion-optimization",
+    "/work", "/about", "/contact", "/book", "/audit", "/faq", "/insights", "/privacy", "/terms", "/404",
+  ]);
+  app.use((req, res, next) => {
+    if (req.method !== "GET" || req.path.startsWith("/api/") || req.path.startsWith("/assets/") || req.path.startsWith("/@vite") || req.path.startsWith("/@react-refresh") || req.path.startsWith("/@fs/") || req.path.includes(".") || publicPaths.has(req.path)) return next();
+    res.status(404).set("X-Robots-Tag", "noindex").type("html").send("<!doctype html><html lang=\"en\"><head><meta name=\"robots\" content=\"noindex\"><title>Page not found — Webora Digital</title></head><body><h1>Page not found</h1><p>Return to <a href=\"/\">Webora Digital</a>.</p></body></html>");
+  });
   // tRPC API
   app.use(
     "/api/trpc",

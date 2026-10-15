@@ -1,25 +1,18 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+import { ArrowDownRight, ArrowUpRight, Check, CircleArrowOutUpRight } from "lucide-react";
+import { Link } from "wouter";
+import { business, faqs, projects, services, testimonials } from "@/content/site";
+import { CTA } from "@/components/SiteChrome";
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Workflow, Frontend Best Practices, Design Guide and Common Pitfalls
- */
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
-    </div>
-  );
+  return <div>
+    <section className="hero"><div className="container hero-grid"><div className="hero-copy"><p className="eyebrow"><span className="signal-line" /> Website development · Lagos + worldwide</p><h1>Make your business <em>easier to find</em> and harder to forget.</h1><p className="hero-lead">Webora Digital builds business websites around visibility, clarity, and the next useful action—so your website can do more than sit online.</p><div className="hero-actions"><CTA /><Link className="text-link" href="/work">See selected work <ArrowDownRight size={17} /></Link></div><div className="hero-proof"><span className="proof-mark">01</span><span>For consultants, coaches, and growing businesses ready to turn attention into enquiries.</span></div></div><div className="hero-aside"><div className="signal-card"><p className="card-kicker">A website should answer three questions</p><div className="signal-list"><div><span>01</span><b>Can I find you?</b><small>Search visibility and clear information.</small></div><div><span>02</span><b>Can I trust you?</b><small>Proof, process, and a credible presence.</small></div><div><span>03</span><b>What do I do next?</b><small>Simple paths to enquire, book, or buy.</small></div></div></div><div className="hero-stamp">WEBORA<br /><strong>GROWTH<br />SYSTEMS</strong></div></div></div><div className="container hero-footer"><span>Scroll to explore</span><ArrowDownRight size={18} /><span className="hero-location">LAGOS / NIGERIA / WORLDWIDE</span></div></section>
+    <section className="marquee-band"><div className="container marquee-inner"><span>Visibility</span><i>✳</i><span>Conversion</span><i>✳</i><span>Growth</span><i>✳</i><span>Clarity</span><i>✳</i></div></section>
+    <section className="section section-intent"><div className="container two-col"><div><p className="eyebrow">The Webora point of view</p><h2>Your website should make the next step obvious.</h2></div><div className="body-copy"><p>Good design is a starting point. The real job is to help the right people understand what you do, believe you can help, and know exactly how to begin.</p><p>Whether you are launching your first website or improving an existing one, we focus on the business purpose behind every page.</p><Link className="text-link" href="/about">How we work <ArrowUpRight size={17} /></Link></div></div></section>
+    <section className="section section-dark services-preview"><div className="container"><div className="section-heading"><div><p className="eyebrow">What we do</p><h2>Digital foundations with a job to do.</h2></div><Link className="text-link light-link" href="/services">View all services <ArrowUpRight size={17} /></Link></div><div className="service-rail">{services.slice(0, 4).map(s => <Link href={`/services/${s.slug}`} className="service-card" key={s.slug}><span className="service-number">{s.number}</span><h3>{s.title}</h3><p>{s.summary}</p><span className="card-arrow"><ArrowUpRight size={20} /></span></Link>)}</div></div></section>
+    <section className="section work-preview"><div className="container"><div className="section-heading"><div><p className="eyebrow">Selected work</p><h2>Proof beats promises.</h2></div><Link className="text-link" href="/work">View portfolio <ArrowUpRight size={17} /></Link></div><div className="project-grid">{projects.slice(0, 3).map((p, i) => <a href={p.url} target="_blank" rel="noreferrer" className={`project-card project-${i + 1}`} key={p.url}><div className="project-top"><span>0{i + 1}</span><CircleArrowOutUpRight size={19} /></div><div><p>{p.type}</p><h3>{p.title}</h3></div><span className="project-link">Open project</span></a>)}</div></div></section>
+    <section className="section section-yellow conversion-band"><div className="container conversion-grid"><div><p className="eyebrow">Your next useful step</p><h2>Bring the business problem. We’ll shape the digital path.</h2></div><div><p>Tell us what you want the website to do. We’ll use a practical conversation to clarify the opportunity, scope, and next move.</p><CTA label="Start with a conversation" /></div></div></section>
+    <section className="section testimonial-section"><div className="container two-col"><div><p className="eyebrow">Client words</p><h2>Clear process. Careful details. A better presence online.</h2></div><div className="quote-block"><span className="quote-mark">“</span><p>{testimonials[0]}</p><span className="quote-source">Supplied testimonial · Webora Digital project</span></div></div></section>
+    <section className="section faq-preview"><div className="container"><div className="section-heading"><div><p className="eyebrow">Before you enquire</p><h2>Useful answers, upfront.</h2></div><Link className="text-link" href="/faq">Read all FAQs <ArrowUpRight size={17} /></Link></div><div className="faq-grid">{faqs.slice(0, 3).map(([q, a]) => <details key={q}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div></div></section>
+    <section className="section final-cta"><div className="container final-cta-inner"><div><p className="eyebrow">Ready when you are</p><h2>Let’s build a website with somewhere to go.</h2></div><CTA /></div></section>
+  </div>;
 }
