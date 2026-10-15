@@ -23,7 +23,7 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: "build-small-business-website",
     category: "Website foundations",
-    title: "How to Build a Website for a Small Business in Nigeria and Worldwide",
+    title: "How to Build a Website for a Small Business",
     excerpt: "A practical path from business goals and useful content to a mobile ready website that helps people find, trust, and contact you.",
     published: "15 October 2026",
     readingTime: "8 minute read",
@@ -31,7 +31,7 @@ export const blogArticles: BlogArticle[] = [
     secondaryKeywords: ["small business website", "local business website", "local SEO", "Google Business Profile", "business website cost"],
     metaTitle: "How to Build a Small Business Website | Webora Digital",
     metaDescription: "Learn how to plan, write, build, launch, and improve a useful small business website for local and worldwide customers.",
-    image: "/blog/small-business.svg",
+    image: "/manus-storage/async-images/uukmz8QR9yfFJGtJjC6Y9S/image-1.webp",
     imageAlt: "Blue website planning board with sections for goals, services, and contact",
     sections: [
       { heading: "Start with the business job", paragraphs: ["A small business website should do more than display a logo and a phone number. Before choosing a platform or a visual style, decide what the site must help the business do. That might be receiving calls, collecting quote requests, booking consultations, selling a service, or helping people understand a location and opening hours.", "Write down the audience, the service area, the most important customer question, and the action you want a qualified visitor to take. These decisions make the later work clearer. They also help you judge whether a page is useful instead of adding sections because another website has them."] },
@@ -61,7 +61,7 @@ export const blogArticles: BlogArticle[] = [
     secondaryKeywords: ["local service business website design", "plumber website SEO", "Google Business Profile for plumbers", "mobile friendly plumbing website"],
     metaTitle: "Plumber Website Design Guide for Local Service Businesses",
     metaDescription: "Plan a clear, fast, accessible plumber website that explains services, locations, trust signals, and the route to a quote.",
-    image: "/blog/plumber.svg",
+    image: "/manus-storage/async-images/uukmz8QR9yfFJGtJjC6Y9S/image-2.webp",
     imageAlt: "Bright blue service website layout with a phone button and local map marker",
     sections: [
       { heading: "Design around the real service journey", paragraphs: ["A visitor looking for a plumber may be comparing options quickly, checking whether the business serves their area, or trying to reach someone about an urgent problem. The website should answer those questions without making the visitor search through long pages.", "Decide which actions matter most. A phone call may be the primary path for urgent work. A short quote form may suit planned jobs. A message option can help people who cannot call immediately. Show these choices clearly and explain what information helps the business respond."] },
@@ -91,7 +91,7 @@ export const blogArticles: BlogArticle[] = [
     secondaryKeywords: ["website not getting leads", "local business website conversion", "contact form best practices", "website accessibility and performance"],
     metaTitle: "Why Your Business Website Is Not Generating Enquiries",
     metaDescription: "Diagnose low website enquiries by checking visibility, clarity, trust, usability, accessibility, response paths, and measurement.",
-    image: "/blog/enquiries.svg",
+    image: "/manus-storage/async-images/uukmz8QR9yfFJGtJjC6Y9S/image-3.webp",
     imageAlt: "Website dashboard with a clear enquiry path highlighted in blue",
     sections: [
       { heading: "First, separate traffic from action", paragraphs: ["A website can fail before a visitor arrives, while a different website can receive relevant visitors and still make contact difficult. These are different problems. Check search visibility, direct visits, referral sources, and landing pages before changing the design.", "Then inspect the actions that should create an enquiry. Are people calling, tapping WhatsApp, opening a form, booking a consultation, or leaving after reading the first section? A simple lead log can reveal more than a single top line analytics number."] },
@@ -121,7 +121,7 @@ export const blogArticles: BlogArticle[] = [
     secondaryKeywords: ["website redesign checklist", "small business website redesign", "mobile friendly business website", "website accessibility audit"],
     metaTitle: "Signs Your Business Needs a Website Redesign Checklist",
     metaDescription: "Use this practical checklist to decide whether an old business website needs a redesign, targeted repairs, or a clearer content structure.",
-    image: "/blog/redesign.svg",
+    image: "/manus-storage/async-images/uukmz8QR9yfFJGtJjC6Y9S/image-4.webp",
     imageAlt: "Before and after website layout with a bright blue redesign marker",
     sections: [
       { heading: "A redesign should have a job", paragraphs: ["A visual refresh can be useful, but a redesign should not be approved only because the colours look old. Start with the customer and business problem. Is the site difficult to use, hard to find, unclear, inaccessible, slow, insecure, or no longer aligned with the service?", "Write down the current evidence before choosing a new layout. Review enquiries, customer questions, Search Console, page performance, form completion, phone clicks, and comments from real users. The evidence will help you distinguish a full rebuild from a focused improvement."] },
@@ -143,18 +143,18 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: "local-seo-small-business",
     category: "Search visibility",
-    title: "Local SEO for Small Businesses: A Practical Guide for Nigeria and Beyond",
+    title: "Local SEO for Small Businesses: A Practical Guide for Any Service Area",
     excerpt: "A grounded local search guide covering business details, useful pages, reviews, accessibility, performance, and responsible measurement.",
     published: "15 October 2026",
     readingTime: "7 minute read",
     primaryKeyword: "local SEO for small businesses",
     secondaryKeywords: ["Google Business Profile optimization", "local search visibility", "service area business SEO", "local citations and reviews"],
-    metaTitle: "Local SEO for Small Businesses in Nigeria and Beyond",
+    metaTitle: "Local SEO for Small Businesses and Service Areas",
     metaDescription: "Learn practical local SEO steps for small businesses, including Google Business Profile, service pages, reviews, performance, and measurement.",
-    image: "/blog/local-seo.svg",
+    image: "/manus-storage/async-images/uukmz8QR9yfFJGtJjC6Y9S/image-5.webp",
     imageAlt: "Local search map with blue business marker and clear service information",
     sections: [
-      { heading: "What local SEO is meant to do", paragraphs: ["Local SEO helps people understand that a business serves a particular place and a particular need. It is not a promise of a first position. It is a set of useful signals and customer experiences that make the business easier to find, understand, and contact.", "For a Nigerian business, the details might include Lagos, Abuja, Delta State, or another real service area. For a worldwide business, the same principle applies. Publish the locations and services the business can genuinely support, not a long list of places created only for search."] },
+      { heading: "What local SEO is meant to do", paragraphs: ["Local SEO helps people understand that a business serves a particular place and a particular need. It is not a promise of a first position. It is a set of useful signals and customer experiences that make the business easier to find, understand, and contact.", "For any business, the details should include the real service areas, customer questions, and services the business can genuinely support. Publish useful location and service information where it is true, not a long list of places created only for search."] },
       { heading: "Complete the business profile accurately", paragraphs: ["Where the business is eligible, claim and verify the Google Business Profile. Use the real business name, an appropriate category, current hours, a phone number, website, photos, and accurate address or service area information. Keep these details current when the business changes.", "Google explains that local results are mainly influenced by relevance, distance, and prominence. A complete profile can help matching, but no agency can guarantee a position. Follow the current rules for storefronts, service area businesses, categories, and reviews."] },
       { heading: "Build useful website pages", paragraphs: ["Create a page for each important service and explain what it includes, who it helps, where it is available, and how to begin. Use descriptive page titles, clean URLs, logical headings, internal links, and original information that answers customer questions.", "Avoid doorway pages that repeat the same copy for many locations. A service area page should contain useful evidence and practical information for that location. If you cannot provide a meaningful local experience, do not create the page just to target a phrase."] },
       { heading: "Earn trust with real details", paragraphs: ["Accurate details across relevant directories can make it easier for people and systems to confirm the business. Genuine reviews and thoughtful responses can help visitors assess the service. Do not buy reviews, copy testimonials, or create customer stories that did not happen.", "Show the next step clearly. Phone, email, WhatsApp, quote forms, and bookings should work on mobile. Explain response expectations so the visitor knows whether to expect a call, message, or email."] },
@@ -181,7 +181,7 @@ export const blogArticles: BlogArticle[] = [
     secondaryKeywords: ["website conversion optimization", "local service business website conversions", "website usability and accessibility", "Core Web Vitals"],
     metaTitle: "Improve Website Conversion Rates Without More Ad Spend",
     metaDescription: "Improve website conversions with clearer offers, less friction, stronger trust, accessible forms, faster pages, and responsible testing.",
-    image: "/blog/conversion.svg",
+    image: "/manus-storage/async-images/frA7G2BrlwPbhfPkRmOhp2/image-1.webp",
     imageAlt: "Bright blue conversion path connecting a website visit to a contact action",
     sections: [
       { heading: "Define one meaningful conversion", paragraphs: ["A conversion is not always a purchase. For a consultant it may be a booked consultation. For a plumber it may be a call or quote request. For a service business it may be a useful message. Choose one primary action and list supporting actions such as reading a service page or opening a phone link.", "Record a baseline before making changes. Note source, device, page, action, service, and response time where the data is appropriate. Conversion rates vary by audience, offer, location, traffic quality, and buying cycle, so avoid publishing a universal benchmark."] },

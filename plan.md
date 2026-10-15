@@ -6,15 +6,16 @@ The website uses verified details from the submitted business brief, the supplie
 
 ## Positioning and launch scope
 
-Webora Digital is a Lagos, Nigeria based website development business with the promise **We Build Websites That Grow Businesses.** The primary audience is consultants and coaches, with room for small businesses, startups, local service businesses, professional services, agencies, real estate, education, ecommerce, Nigeria, and international markets.
+Webora Digital is an international website development business with the promise **We Build Websites That Grow Businesses.** The primary audience is consultants and coaches, with room for small businesses, startups, local service businesses, professional services, agencies, real estate, education, ecommerce, and clients worldwide.
 
 The public launch includes:
 
 * A conversion focused homepage with clear audience, problem, outcome, proof, and calls to action.
-* Services, priority service pages, About, Work, Contact, Audit, FAQ, Privacy, Terms, and a custom 404.
+* Services, priority service pages, Pricing, About, Work, Contact, Audit, FAQ, Privacy, Terms, and a custom 404.
+* A researched Pricing page with proposed starting packages for landing pages, starter websites, business websites, premium websites, ecommerce, redesigns, and custom development.
 * Six search intent led articles covering small business websites, plumber websites, enquiry problems, redesign decisions, local SEO, and conversion improvement.
-* Article detail pages with feature illustrations, categories, dates, reading time, sources, related reading, metadata, and internal links.
-* The four supplied portfolio links, including Mini Wallet, Beyond Barrier, Timely, and Mellifluous.
+* Article detail pages with topic specific generated images, categories, dates, reading time, sources, related reading, metadata, and internal links.
+* The four supplied portfolio links, including Mini Wallet, Beyond Barrier, Timely, and Mellifluous, each shown with a genuine captured homepage visual.
 * Only the four supplied testimonials.
 * A structured project enquiry form saved to the managed database.
 * Newsletter signup saved to the managed database.
@@ -37,7 +38,7 @@ Three possible movements were considered:
 * Core principles: clarity before decoration, high contrast, visible evidence, and every section moving toward a useful action.
 * Color philosophy: blue creates confidence and direction, white creates breathing room, and coral provides a warm human signal.
 * Layout paradigm: asymmetric editorial bands, oversized type, offset proof cards, feature article cards, and horizontal service rails.
-* Signature elements: blue service rails, coral signal dots, numbered markers, rounded proof cards, and abstract article illustrations.
+* Signature elements: blue service rails, coral signal dots, numbered markers, rounded proof cards, genuine project screenshots, and topic specific article imagery.
 * Interaction philosophy: clear hover and focus states, restrained motion, responsive navigation, and no interaction that hides the next step.
 * Animation: short transitions only, with reduced motion support.
 * Typography: Space Grotesk for display and headings, DM Sans for body and interface text.
@@ -54,7 +55,8 @@ Three possible movements were considered:
 * Public routes without login.
 * Zod validation and accessible client feedback.
 * Static article content in `client/src/content/blog.ts` with reusable article rendering.
-* Original lightweight SVG illustrations in `client/public/blog/` and `client/public/portfolio/`.
+* Generated article imagery stored through Manus managed storage references and genuine captured project visuals in `client/public/portfolio/`.
+* Proposed package content in `client/src/content/pricing.ts`, with enquiry links that preselect the chosen package.
 * No private API keys in frontend code.
 * Google Sheets, customer email notifications, newsletter automation, Google Analytics, Search Console, Tag Manager, CRM, payment, portal, multilingual content, and other advanced capabilities remain pending authorization or requirements.
 
@@ -75,7 +77,7 @@ Pages use meaningful text, route specific titles and descriptions, canonical han
 ## Items requiring later human input
 
 * Final logo asset and public domain.
-* Package names, prices, deliverables, timelines, payment terms, and legal review.
+* Commercial approval of the proposed package prices, payment terms, and legal review.
 * Initial language list because “All” is not an actionable launch choice.
 * Google Sheets write through, email notification, newsletter provider, CRM, analytics, Search Console, and Tag Manager authorization.
 * Live chat provider account and configuration.

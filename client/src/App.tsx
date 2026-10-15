@@ -8,6 +8,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import { SiteChrome } from "./components/SiteChrome";
 import { About, ArticlePage, Audit, Book, Contact, FAQ, Insights, ServicePage, Services, Terms, Privacy, Work } from "./pages/PublicPages";
+import Pricing from "./pages/Pricing";
 import { findArticle } from "./content/blog";
 
 function RouteMetadata() {
@@ -16,6 +17,7 @@ function RouteMetadata() {
     const labels: Record<string, [string, string]> = {
       "/": ["Webora Digital, Websites that grow businesses", "Webora Digital builds business websites designed to get found, build trust, and generate enquiries."],
       "/services": ["Services, Webora Digital", "Business websites, redesigns, landing pages, SEO, and conversion improvement for growing businesses."],
+      "/pricing": ["Pricing, Webora Digital", "Proposed starting prices for landing pages, business websites, redesigns, ecommerce, and custom web development."],
       "/work": ["Selected work, Webora Digital", "Explore genuine project links and supplied testimonials from Webora Digital work."],
       "/about": ["About, Webora Digital", "A practical website development approach built around visibility, conversion, and growth."],
       "/contact": ["Contact, Webora Digital", "Tell Webora Digital what your website needs to do and request a practical next step."],
@@ -39,7 +41,7 @@ function RouteMetadata() {
 
 function Router() { return <Switch>
   <Route path="/" component={Home} /><Route path="/services" component={Services} /><Route path="/services/:slug" component={ServicePage} />
-  <Route path="/work" component={Work} /><Route path="/about" component={About} /><Route path="/contact" component={Contact} /><Route path="/book" component={Book} /><Route path="/audit" component={Audit} /><Route path="/faq" component={FAQ} /><Route path="/insights/:slug" component={ArticlePage} /><Route path="/insights" component={Insights} /><Route path="/privacy" component={Privacy} /><Route path="/terms" component={Terms} /><Route path="/404" component={NotFound} /><Route component={NotFound} />
+  <Route path="/pricing" component={Pricing} /><Route path="/work" component={Work} /><Route path="/about" component={About} /><Route path="/contact" component={Contact} /><Route path="/book" component={Book} /><Route path="/audit" component={Audit} /><Route path="/faq" component={FAQ} /><Route path="/insights/:slug" component={ArticlePage} /><Route path="/insights" component={Insights} /><Route path="/privacy" component={Privacy} /><Route path="/terms" component={Terms} /><Route path="/404" component={NotFound} /><Route component={NotFound} />
 </Switch>; }
 
 function App() { return <ErrorBoundary><ThemeProvider defaultTheme="light" switchable><TooltipProvider><Toaster /><RouteMetadata /><SiteChrome><Router /></SiteChrome></TooltipProvider></ThemeProvider></ErrorBoundary>; }

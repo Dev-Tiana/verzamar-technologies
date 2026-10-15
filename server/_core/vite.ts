@@ -9,6 +9,7 @@ import viteConfig from "../../vite.config";
 const routeMeta: Record<string, { title: string; description: string }> = {
   "/": { title: "Webora Digital, Websites that grow businesses", description: "Webora Digital builds business websites designed to get found, build trust, and generate enquiries." },
   "/services": { title: "Services, Webora Digital", description: "Business websites, redesigns, landing pages, SEO, and conversion improvement for growing businesses." },
+  "/pricing": { title: "Pricing, Webora Digital", description: "Proposed starting prices for landing pages, business websites, redesigns, ecommerce, and custom web development." },
   "/work": { title: "Selected work, Webora Digital", description: "Explore genuine project links and supplied testimonials from Webora Digital work." },
   "/about": { title: "About, Webora Digital", description: "A practical website development approach built around visibility, conversion, and growth." },
   "/contact": { title: "Contact, Webora Digital", description: "Tell Webora Digital what your website needs to do and request a practical next step." },
