@@ -2,134 +2,81 @@
 
 ## Source of truth
 
-The implementation is based on the single latest complete response submitted to the Website Development Business Brief form. Verified facts are kept separate from recommendations. No business facts, prices, results, credentials, or testimonials will be invented.
+The website uses verified details from the submitted business brief, the supplied portfolio links, the supplied testimonials, the supplied Calendly URL, and the supplied WhatsApp number. It does not invent results, credentials, awards, client logos, prices, rankings, or integrations.
 
-## Business positioning
+## Positioning and launch scope
 
-Webora Digital is a Lagos, Nigeria-based website development business with the stated promise: **“We Build Websites That Grow Businesses.”** The primary launch audience is consultants and coaches. The site will also make room for future expansion into small businesses, startups, home services, professional services, agencies, real estate, education, e-commerce, Nigeria, and international markets.
+Webora Digital is a Lagos, Nigeria based website development business with the promise **We Build Websites That Grow Businesses.** The primary audience is consultants and coaches, with room for small businesses, startups, local service businesses, professional services, agencies, real estate, education, ecommerce, Nigeria, and international markets.
 
-The primary conversion goal is a **free 30-minute consultation**. Secondary conversion paths are a website quote, free website audit, lead-magnet download, WhatsApp contact, email contact, and newsletter signup.
+The public launch includes:
 
-## Launch scope
+* A conversion focused homepage with clear audience, problem, outcome, proof, and calls to action.
+* Services, priority service pages, About, Work, Contact, Audit, FAQ, Privacy, Terms, and a custom 404.
+* Six search intent led articles covering small business websites, plumber websites, enquiry problems, redesign decisions, local SEO, and conversion improvement.
+* Article detail pages with feature illustrations, categories, dates, reading time, sources, related reading, metadata, and internal links.
+* The four supplied portfolio links, including Mini Wallet, Beyond Barrier, Timely, and Mellifluous.
+* Only the four supplied testimonials.
+* A structured project enquiry form saved to the managed database.
+* Newsletter signup saved to the managed database.
+* The exact Calendly link `https://calendly.com/eviokpako-c/new-meeting` embedded on the booking page with a new tab fallback.
+* Verified WhatsApp and email contact routes.
+* A transparent live chat status panel that says the provider is offline until an account is authorized, with working WhatsApp and email fallbacks.
+* Responsive mobile first layouts, accessible labels, keyboard focus, reduced motion support, dark mode, sitemap, robots, route manifest, canonical handling, route metadata, and social metadata.
 
-The first release is a public lead-generation website, not a full client-operations platform. It will implement:
-
-- Homepage with clear audience, problem, outcome, proof, and CTAs.
-- About page based only on supplied experience and business approach.
-- Services overview and priority service pages for website development, redesign, landing pages, maintenance, SEO/local SEO, AI-search readiness, and conversion improvement.
-- Portfolio with the four genuine project URLs supplied in the response.
-- Testimonials using only the four supplied written testimonials.
-- Pricing/packages section marked as “packages in development” rather than inventing prices.
-- Contact and project enquiry form with the selected fields.
-- Website audit / quote request path.
-- Calendly booking CTA using a configuration placeholder until a real Calendly URL is supplied.
-- Lead magnet CTA for the supplied Business Website Audit Checklist topic.
-- Newsletter signup stored in the managed database.
-- Enquiry and newsletter persistence in the managed database with success/error states.
-- Responsive navigation, mobile-first layouts, accessible form labels, keyboard focus states, and optional dark mode.
-- SEO metadata, canonical configuration placeholder, Open Graph/Twitter metadata, sitemap, robots, route manifest, FAQ content, and a custom 404.
-
-High-complexity requested items are staged rather than silently omitted: client portal, project tracking, client onboarding workflows, automated reminders, CRM, external email notifications, Google Sheets write-through from website forms, multilingual content, and full analytics provider connections.
-
-## Sitemap and intent
-
-| Route | Purpose and intent |
-| --- | --- |
-| `/` | Understand the value proposition and book a consultation. |
-| `/services` | Compare services and choose a relevant path. |
-| `/services/business-websites` | Commercial intent: launch a website for a business without one. |
-| `/services/website-redesign` | Commercial intent: improve an outdated or underperforming website. |
-| `/services/landing-pages` | Commercial intent: create a focused conversion page. |
-| `/services/seo-visibility` | Commercial intent: improve search visibility and technical foundations. |
-| `/services/conversion-optimization` | Commercial intent: turn existing traffic into more enquiries. |
-| `/work` | Validate credibility through genuine projects and links. |
-| `/about` | Establish trust and explain the business approach. |
-| `/contact` | Submit an enquiry or choose WhatsApp/email. |
-| `/book` | Book a free 30-minute consultation; Calendly URL remains to be supplied. |
-| `/audit` | Request a website audit or download the audit checklist. |
-| `/faq` | Resolve objections and answer pre-hiring questions. |
-| `/insights` | Educational content hub for future articles. |
-| `/privacy` | Explain collection and handling of form/newsletter data. |
-| `/terms` | Service and website terms placeholder requiring business/legal review. |
-
-## Keyword-to-page mapping
-
-No search volumes or difficulty scores are invented. The mapping uses terms supplied in the questionnaire.
-
-| Keyword group | Primary page |
-| --- | --- |
-| Business website development; professional website development services; website developer for small businesses | `/services/business-websites` |
-| Website design for consultants; website design for coaches and consultants | Homepage, `/services/business-websites` |
-| Website redesign; business website modernization; mobile-friendly website redesign | `/services/website-redesign` |
-| Landing page design; high-converting business website design; lead-generation website design | `/services/landing-pages` |
-| SEO services for small businesses; local SEO services; website SEO audit services | `/services/seo-visibility` |
-| Website conversion optimization; website design to generate more enquiries | `/services/conversion-optimization` |
-| Website developer in Nigeria; website designer in Lagos; website development company in Nigeria | Homepage and relevant service copy; no thin location pages at launch |
-| How much does a business website cost; how long does it take; does my business need a website | `/faq` and future `/insights` articles |
-
-## Homepage messaging and conversion
-
-Hero message: **Business websites built to get found, build trust, and generate enquiries.** Supporting copy will state that Webora Digital helps consultants and growing businesses clarify their offer, present it professionally, and create straightforward paths to enquire or book.
-
-Primary CTA: **Book a free 30-minute consultation**. Secondary CTAs: **Request a website quote**, **Get a free website audit**, and **View selected work**.
-
-Trust will come from the supplied project links, supplied testimonials, transparent process explanation, and clear limitations. No unsupported metrics, awards, client logos, or guaranteed search results will be used.
-
-## Brand and visual direction
+## Visual direction
 
 Three possible movements were considered:
 
-- **Signal Studio — 0.07:** editorial black-and-white foundation with bright yellow signal accents and precise utility layouts.
-- **Warm Growth — 0.05:** soft neutral canvas with optimistic yellow highlights and rounded, conversational sections.
-- **Neo-Blueprint — 0.03:** technical grid language, blueprint lines, and bright signal markers.
+* **Blue Editorial Signal, 0.07:** bright blue studio system with generous white space, coral markers, and editorial service rails inspired by the supplied Zarrin reference.
+* **Warm Growth, 0.05:** soft neutral canvas with optimistic colour highlights and rounded conversational sections.
+* **Neo Blueprint, 0.03:** technical grid language, blueprint lines, and bright signal markers.
 
-**Chosen direction: Signal Studio.**
+**Chosen direction: Blue Editorial Signal.**
 
-- **Design movement:** editorial digital studio with utility-first precision.
-- **Core principles:** clarity before decoration; high contrast; visible evidence; every section moves toward a useful action.
-- **Color philosophy:** black and white create trust and focus; `#fef300` is the ownable “signal” color reserved for CTAs, markers, and key moments.
-- **Layout paradigm:** asymmetric editorial bands, oversized type, offset proof cards, and horizontal service rails instead of a generic centered card grid.
-- **Signature elements:** yellow signal bars, underlined action links, and numbered process markers.
-- **Interaction philosophy:** restrained transitions, clear hover/focus states, no motion that delays comprehension.
-- **Animation:** short opacity/translate reveals only where they reinforce reading order; respect reduced-motion preferences.
-- **Typography system:** Space Grotesk for display and headings; Inter for body and interface text; bold condensed-feeling headlines paired with calm readable paragraphs.
-- **Brand essence:** a practical growth partner for consultants and businesses that need a website to perform, not merely exist. Personality: clear, credible, purposeful.
-- **Brand voice:** direct, useful, confident without hype. Example lines: “Your website should make the next step obvious.” and “Bring the business problem. We’ll shape the digital path.”
-- **Wordmark concept:** “WEBORA” in a tight geometric wordmark with a small yellow signal slash replacing the crossbar rhythm between the final letters; implement as text treatment until an actual logo asset is supplied.
-- **Signature brand color:** Webora Signal Yellow `#fef300`.
+* Design movement: bright editorial digital studio with generous white space, electric blue structure, and coral signals.
+* Core principles: clarity before decoration, high contrast, visible evidence, and every section moving toward a useful action.
+* Color philosophy: blue creates confidence and direction, white creates breathing room, and coral provides a warm human signal.
+* Layout paradigm: asymmetric editorial bands, oversized type, offset proof cards, feature article cards, and horizontal service rails.
+* Signature elements: blue service rails, coral signal dots, numbered markers, rounded proof cards, and abstract article illustrations.
+* Interaction philosophy: clear hover and focus states, restrained motion, responsive navigation, and no interaction that hides the next step.
+* Animation: short transitions only, with reduced motion support.
+* Typography: Space Grotesk for display and headings, DM Sans for body and interface text.
+* Brand essence: a practical growth partner for businesses that need a website to perform, not merely exist. Personality: clear, credible, purposeful.
+* Brand voice: direct, useful, confident without hype. Example lines: “Your website should make the next step obvious.” and “Bring the business problem. We will shape the digital path.”
+* Wordmark: WEBORA in a tight geometric text treatment with a coral signal dot until a final logo asset is supplied.
+* Signature colour: Webora Blue `#1769e0`, supported by Coral `#ff7657`.
 
 ## Technical approach
 
-- React + Vite frontend using the initialized Web/DB template.
-- Express + tRPC backend.
-- Drizzle/MySQL managed database for enquiries and newsletter signups.
-- Public routes remain accessible without login.
-- Forms use Zod validation on the server and accessible client-side feedback.
-- Google Sheets, email, Calendly, Analytics, Search Console, and Tag Manager are documented as pending authorization/configuration unless a connection is actually established.
-- No secret is placed in frontend code.
+* React and Vite frontend using the initialized Web and database template.
+* Express and tRPC backend.
+* Drizzle and managed MySQL for enquiries and newsletter subscriptions.
+* Public routes without login.
+* Zod validation and accessible client feedback.
+* Static article content in `client/src/content/blog.ts` with reusable article rendering.
+* Original lightweight SVG illustrations in `client/public/blog/` and `client/public/portfolio/`.
+* No private API keys in frontend code.
+* Google Sheets, customer email notifications, newsletter automation, Google Analytics, Search Console, Tag Manager, CRM, payment, portal, multilingual content, and other advanced capabilities remain pending authorization or requirements.
 
-## SEO and AI-search implementation
+## SEO and AI search readiness
 
-Public HTML will contain meaningful content, route-specific titles and descriptions, canonical placeholders that are not guessed, Open Graph/Twitter metadata, descriptive headings, internal links, sitemap/robots documents, and valid structured data limited to facts visible on the page. The content will answer real customer questions about website need, cost, process, redesign, SEO, and conversion. AI-search readiness is treated as clarity and factual consistency, not a guarantee of inclusion.
+Pages use meaningful text, route specific titles and descriptions, canonical handling that does not guess a public origin, Open Graph and Twitter metadata, descriptive headings, internal links, a sitemap, robots directives, a route manifest, direct answers, and source links. The site makes no guarantee about rankings, traffic, or inclusion in ChatGPT search, Google AI features, Copilot, or Perplexity.
 
 ## Project structure
 
-- `client/src/pages/`: public route pages and 404.
-- `client/src/components/`: navigation, footer, reusable sections, form fields, and UI primitives.
-- `client/src/content/`: verified business content, services, projects, testimonials, FAQ, and SEO metadata.
-- `client/public/`: route manifest, sitemap, robots, and static metadata assets.
-- `server/routers.ts`: public enquiry and newsletter procedures.
-- `server/db.ts`: database queries for lead and subscriber persistence.
-- `drizzle/schema.ts` and `drizzle/`: additive schema and migration history.
-- `plan.md` and `TODO.md`: implementation decisions and outcome criteria.
+* `client/src/pages/` contains public route pages, the homepage, article pages, and 404.
+* `client/src/components/` contains navigation, footer, conversion actions, booking, and chat status UI.
+* `client/src/content/` contains verified business content and reusable blog articles.
+* `client/public/` contains route, sitemap, robots, article, and portfolio assets.
+* `server/routers.ts` and `server/db.ts` contain validated lead and newsletter persistence.
+* `drizzle/` contains the schema and migration history.
+* `plan.md` and `TODO.md` record implementation decisions and acceptance outcomes.
 
-## Unresolved items requiring later human input
+## Items requiring later human input
 
-- Final logo asset.
-- Domain and public canonical origin.
-- Exact package names, prices, deliverables, timelines, and payment terms.
-- Actual Calendly URL.
-- Initial language list; “All” is not actionable.
-- Google Sheets write-through, email notification, CRM, analytics, and Tag Manager authorization.
-- Legal review of privacy and terms content.
-- Specific case-study context and substantiated project results.
+* Final logo asset and public domain.
+* Package names, prices, deliverables, timelines, payment terms, and legal review.
+* Initial language list because “All” is not an actionable launch choice.
+* Google Sheets write through, email notification, newsletter provider, CRM, analytics, Search Console, and Tag Manager authorization.
+* Live chat provider account and configuration.
+* Detailed case study context and substantiated results.
