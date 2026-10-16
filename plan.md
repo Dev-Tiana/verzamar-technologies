@@ -13,6 +13,7 @@ The public launch includes:
 * A conversion focused homepage with clear audience, problem, outcome, proof, and calls to action.
 * Services, priority service pages, Pricing, About, Work, Contact, Audit, FAQ, Privacy, Terms, and a custom 404.
 * A researched Pricing page with proposed starting packages for landing pages, starter websites, business websites, premium websites, ecommerce, redesigns, and custom development.
+* A comparison table that lets visitors compare fit, scope, starting price, and launch support across the proposed packages.
 * Six search intent led articles covering small business websites, plumber websites, enquiry problems, redesign decisions, local SEO, and conversion improvement.
 * Article detail pages with topic specific generated images, categories, dates, reading time, sources, related reading, metadata, and internal links.
 * The four supplied portfolio links, including Mini Wallet, Beyond Barrier, Timely, and Mellifluous, each shown with a genuine captured homepage visual.
@@ -22,7 +23,7 @@ The public launch includes:
 * The exact Calendly link `https://calendly.com/eviokpako-c/new-meeting` embedded on the booking page with a new tab fallback.
 * Verified WhatsApp and email contact routes.
 * A transparent live chat status panel that says the provider is offline until an account is authorized, with working WhatsApp and email fallbacks.
-* Responsive mobile first layouts, accessible labels, keyboard focus, reduced motion support, dark mode, sitemap, robots, route manifest, canonical handling, route metadata, and social metadata.
+* Responsive mobile first layouts, accessible labels, keyboard focus, reduced motion support, dark mode, sitemap, robots, route manifest, canonical handling, route metadata, social metadata, route scroll reset, and purposeful page motion.
 
 ## Visual direction
 
@@ -40,7 +41,7 @@ Three possible movements were considered:
 * Layout paradigm: asymmetric editorial bands, oversized type, offset proof cards, feature article cards, and horizontal service rails.
 * Signature elements: blue service rails, coral signal dots, numbered markers, rounded proof cards, genuine project screenshots, and topic specific article imagery.
 * Interaction philosophy: clear hover and focus states, restrained motion, responsive navigation, and no interaction that hides the next step.
-* Animation: short transitions only, with reduced motion support.
+* Animation: short transitions only, with reduced motion support. Page changes fade in, pricing cards enter in a short stagger, and project and article images use a restrained hover zoom.
 * Typography: Space Grotesk for display and headings, DM Sans for body and interface text.
 * Brand essence: a practical growth partner for businesses that need a website to perform, not merely exist. Personality: clear, credible, purposeful.
 * Brand voice: direct, useful, confident without hype. Example lines: “Your website should make the next step obvious.” and “Bring the business problem. We will shape the digital path.”
@@ -57,6 +58,9 @@ Three possible movements were considered:
 * Static article content in `client/src/content/blog.ts` with reusable article rendering.
 * Generated article imagery stored through Manus managed storage references and genuine captured project visuals in `client/public/portfolio/`.
 * Proposed package content in `client/src/content/pricing.ts`, with enquiry links that preselect the chosen package.
+* `client/src/content/pricingComparison.ts` contains the accessible comparison table rows.
+* Below fold project and article imagery uses lazy loading. Article hero imagery remains eager.
+* Wouter route changes reset new pages to the top. Browser history navigation uses native scroll restoration.
 * No private API keys in frontend code.
 * Google Sheets, customer email notifications, newsletter automation, Google Analytics, Search Console, Tag Manager, CRM, payment, portal, multilingual content, and other advanced capabilities remain pending authorization or requirements.
 

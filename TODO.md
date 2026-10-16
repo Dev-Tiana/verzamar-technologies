@@ -27,6 +27,7 @@
 * [x] Each package states a proposed starting price or custom quote, intended audience, scope, timeline, revision approach, support boundary, included features, and exclusions.
 * [x] Price context is grounded in a saved 2026 research note using Digital Applied, VH Agency, Tenet, and Forbes Advisor, with final pricing still subject to an approved proposal.
 * [x] Pricing CTAs link to the enquiry form and preselect the chosen package without submitting any enquiry automatically.
+* [x] Pricing includes a horizontally scrollable comparison table covering fit, scope, starting price, and launch support for all seven packages.
 
 ## Lead capture and booking
 
@@ -45,6 +46,8 @@
 * [x] Forms have labels, validation, consent, errors, success state, keyboard focus, and descriptive controls.
 * [x] WhatsApp uses an official Simple Icons asset path, and articles and portfolio cards use meaningful alt text.
 * [x] Reduced motion support is present.
+* [x] Page transitions, card entrances, image zoom on hover, pricing card reveals, focus states, and form feedback use short purposeful motion with reduced motion fallbacks.
+* [x] Blog and portfolio images below the initial view use lazy loading, while article hero images remain eager for a fast first impression.
 
 ## SEO and AI search readiness
 
@@ -53,6 +56,7 @@
 * [x] Sitemap, robots, route manifest, internal links, article sources, and custom 404 are synchronized with the public structure.
 * [x] Content answers practical questions directly and makes no guarantee about rankings, traffic, or AI search inclusion.
 * [x] Unknown public routes return a real 404 and noindex response.
+* [x] Client side navigation resets new destinations to the top while browser history navigation keeps native scroll restoration behavior.
 
 ## Still pending authorization or definition
 
@@ -71,3 +75,5 @@
 * [x] Health, raw route metadata, article route, route manifest, sitemap, robots, and 404 responses were checked.
 * [x] Browser checks confirmed the updated homepage, mobile article pages, contact form, dark mode, booking URL, WhatsApp route, and offline chat status.
 * [x] Browser checks confirmed the Pricing page, four genuine portfolio screenshot cards, six article image references, package preselection, and worldwide navigation copy.
+* [x] Browser checks confirmed all six article images and all four portfolio screenshots load with natural image dimensions, meaningful alt text, and the expected project URLs.
+* [x] Browser script check confirmed navigation from a scrolled Services page to Pricing landed at scroll position 0.

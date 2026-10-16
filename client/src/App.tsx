@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch, useLocation } from "wouter";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -13,7 +13,16 @@ import { findArticle } from "./content/blog";
 
 function RouteMetadata() {
   const [location] = useLocation();
+  const returningThroughHistory = useRef(false);
   useEffect(() => {
+    const onPopState = () => { returningThroughHistory.current = true; };
+    window.history.scrollRestoration = "auto";
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
+  useEffect(() => {
+    if (!returningThroughHistory.current && !location.includes("#")) window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    returningThroughHistory.current = false;
     const labels: Record<string, [string, string]> = {
       "/": ["Webora Digital, Websites that grow businesses", "Webora Digital builds business websites designed to get found, build trust, and generate enquiries."],
       "/services": ["Services, Webora Digital", "Business websites, redesigns, landing pages, SEO, and conversion improvement for growing businesses."],
