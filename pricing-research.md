@@ -16,7 +16,7 @@ Forbes Advisor separates one time design from recurring expenses. Its 2026 guida
 
 Webora Digital is positioned as an international boutique studio rather than a low cost template provider or an enterprise agency. The proposed starting prices sit above the cheapest freelancer references and below the upper end of boutique agency ranges. They are intended to leave room for custom messaging, responsive implementation, accessibility, testing, and a useful conversion path.
 
-The proposed starting prices are $1,200 for a Landing Page, $2,500 for a Starter Website, $5,500 for a Business Website, $10,000 for a Premium Website, $7,500 for an Ecommerce Website, and $3,500 for a Website Redesign. Custom Website Development remains quote based because portals, dashboards, memberships, advanced booking, integrations, security, and data requirements cannot be priced responsibly from a short card.
+The approved Webora starting prices are $300 for a Landing Page, $700 for a Starter Website, $1,500 for a Business Website, $3,000 for a Premium Website, $5,000 for an Ecommerce Website, and $1,000 for a Website Redesign. These figures are intentionally presented as starting prices and may be revised after a project brief. Custom Website Development remains quote based because portals, dashboards, memberships, advanced booking, integrations, security, and data requirements cannot be priced responsibly from a short card.
 
 Every figure is labelled as a starting price. Final pricing depends on the number of pages, content requirements, design complexity, integrations, platform, product catalogue, migration, feedback rounds, and any third party costs.
 
