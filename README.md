@@ -1,4 +1,4 @@
-# Webora Digital Business Website
+# Verzamar Technologies Business Website
 
 React / Express / tRPC / Drizzle starter, adapted from the Sandbox web-db-user template.
 

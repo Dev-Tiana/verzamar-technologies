@@ -1,4 +1,4 @@
-# Webora Digital Website Implementation Plan
+# Verzamar Technologies Website Implementation Plan
 
 ## Source of truth
 
@@ -6,7 +6,7 @@ The website uses verified details from the submitted business brief, the supplie
 
 ## Positioning and launch scope
 
-Webora Digital is an international website development business with the promise **We Build Websites That Grow Businesses.** The primary audience is consultants and coaches, with room for small businesses, startups, local service businesses, professional services, agencies, real estate, education, ecommerce, and clients worldwide.
+Verzamar Technologies is an international website development business with the promise **We Build Websites That Grow Businesses.** The primary audience is consultants and coaches, with room for small businesses, startups, local service businesses, professional services, agencies, real estate, education, ecommerce, and clients worldwide.
 
 The public launch includes:
 
@@ -45,8 +45,8 @@ Three possible movements were considered:
 * Typography: Space Grotesk for display and headings, DM Sans for body and interface text.
 * Brand essence: a practical growth partner for businesses that need a website to perform, not merely exist. Personality: clear, credible, purposeful.
 * Brand voice: direct, useful, confident without hype. Example lines: “Your website should make the next step obvious.” and “Bring the business problem. We will shape the digital path.”
-* Wordmark: WEBORA in a tight geometric text treatment with a coral signal dot until a final logo asset is supplied.
-* Signature colour: Webora Blue `#1769e0`, supported by Coral `#ff7657`.
+* Wordmark: the supplied official Verzamar logo is used in the shared navigation, footer, favicon, platform metadata, and social preview.
+* Signature colour: Verzamar Blue `#1769e0`, supported by Coral `#ff7657`.
 
 ## Technical approach
 
@@ -59,7 +59,8 @@ Three possible movements were considered:
 * Generated article imagery stored through Manus managed storage references and genuine captured project visuals in `client/public/portfolio/`.
 * Proposed package content in `client/src/content/pricing.ts`, with enquiry links that preselect the chosen package.
 * `client/src/content/pricingComparison.ts` contains the accessible comparison table rows.
-* Below fold project and article imagery uses lazy loading. Article hero imagery remains eager.
+* Below fold project and article imagery uses lazy loading. Article hero imagery remains eager. Portfolio cards use 640 pixel WebP derivatives through `srcSet`, while the full screenshot remains the fallback.
+* The supplied logo is preserved at its original proportions, with a compressed WebP site asset and a proportion preserving favicon canvas. The original JPEG is retained as a reference asset.
 * Wouter route changes reset new pages to the top. Browser history navigation uses native scroll restoration.
 * No private API keys in frontend code.
 * Google Sheets, customer email notifications, newsletter automation, Google Analytics, Search Console, Tag Manager, CRM, payment, portal, multilingual content, and other advanced capabilities remain pending authorization or requirements.
@@ -80,7 +81,7 @@ Pages use meaningful text, route specific titles and descriptions, canonical han
 
 ## Items requiring later human input
 
-* Final logo asset and public domain.
+* Public domain and final commercial approval.
 * Commercial approval of the proposed package prices, payment terms, and legal review.
 * Initial language list because “All” is not an actionable launch choice.
 * Google Sheets write through, email notification, newsletter provider, CRM, analytics, Search Console, and Tag Manager authorization.

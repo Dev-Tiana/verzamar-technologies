@@ -29,7 +29,7 @@ export const blogArticles: BlogArticle[] = [
     readingTime: "8 minute read",
     primaryKeyword: "how to build a website for a small business",
     secondaryKeywords: ["small business website", "local business website", "local SEO", "Google Business Profile", "business website cost"],
-    metaTitle: "How to Build a Small Business Website | Webora Digital",
+    metaTitle: "How to Build a Small Business Website | Verzamar Technologies",
     metaDescription: "Learn how to plan, write, build, launch, and improve a useful small business website for local and worldwide customers.",
     image: "/manus-storage/async-images/uukmz8QR9yfFJGtJjC6Y9S/image-1.webp",
     imageAlt: "Blue website planning board with sections for goals, services, and contact",
@@ -41,7 +41,7 @@ export const blogArticles: BlogArticle[] = [
       { heading: "Make search visibility factual", paragraphs: ["Give every important page a clear title, descriptive URL, useful headings, and links to related pages. Build pages for real services and real locations rather than producing many similar pages with small wording changes. Add a sitemap and check that search systems can crawl the pages.", "For local discovery, complete and verify the Google Business Profile where the business is eligible. Keep the name, category, hours, phone number, website, service area, photos, and customer responses accurate. Google explains that local results are mainly influenced by relevance, distance, and prominence. A website alone cannot guarantee a local position."] },
       { heading: "Launch with a simple checklist", paragraphs: ["Before launch, test every form, phone link, message link, booking link, and important navigation path. Check the site on a phone, tablet, laptop, and large screen. Confirm HTTPS, backups, analytics settings, error pages, sitemap access, and the wording of consent notices.", "After launch, keep the site useful. Update services, answer common questions, add genuine proof, review search queries, and record qualified enquiries. A website becomes more valuable when the business learns from real customer questions and improves the clearest barrier first."] },
     ],
-    cta: "Need a clearer website plan? Book a Free Consultation with Webora Digital.",
+    cta: "Need a clearer website plan? Book a Free Consultation with Verzamar Technologies.",
     sources: [
       { label: "Google Search documentation", url: "https://developers.google.com/search/docs" },
       { label: "Google guidance for local ranking", url: "https://support.google.com/business/answer/7091?hl=en" },
@@ -101,7 +101,7 @@ export const blogArticles: BlogArticle[] = [
       { heading: "Check local visibility and technical quality", paragraphs: ["For a local business, align the website with an accurate Google Business Profile. Keep the business name, category, hours, phone, website, photos, and service area current. Google says local results are mainly influenced by relevance, distance, and prominence.", "Check page titles, headings, internal links, crawlability, mobile layout, Core Web Vitals, labels, contrast, and keyboard access. These are foundations. Passing a technical check does not guarantee enquiries, but ignoring the foundations can create avoidable friction."] },
       { heading: "Create a prioritised repair list", paragraphs: ["Start with the largest barrier you can observe. If the right people are not arriving, improve service and location clarity. If they arrive and leave, improve the offer, page structure, proof, and next step. If forms start but do not finish, reduce fields and improve the error state.", "Retest one meaningful change at a time. Track qualified enquiries, not only clicks. Review source, device, page, service, and response time where the data is appropriate. A website becomes more effective when the business treats improvement as an ongoing process rather than a one day redesign."] },
     ],
-    cta: "If the website feels busy but enquiries stay quiet, request a website audit from Webora Digital.",
+    cta: "If the website feels busy but enquiries stay quiet, request a website audit from Verzamar Technologies.",
     sources: [
       { label: "Google Search documentation", url: "https://developers.google.com/search" },
       { label: "Google Business Profile guidance", url: "https://support.google.com/business/answer/7091?hl=en" },
@@ -192,7 +192,7 @@ export const blogArticles: BlogArticle[] = [
       { heading: "Test one change at a time", paragraphs: ["Choose a change that addresses an observed problem. You might improve the first heading, shorten a form, move the phone action, add a missing service detail, or make the booking path clearer. Keep the rest of the page stable long enough to learn something useful.", "Review qualified actions, not only clicks. Segment by device, source, location, and service when the sample and privacy approach support it. Use the result to choose the next small improvement rather than rebuilding everything without evidence."] },
       { heading: "A practical thirty day plan", paragraphs: ["Week one can focus on the offer, primary action, contact paths, and baseline record. Week two can improve forms, phone links, trust details, and mobile spacing. Week three can address service pages, local information, performance, and accessibility. Week four can review the evidence and choose the next test.", "This approach does not promise a particular rate. It creates a clearer customer journey and a responsible way to learn what helps the right visitors take the next step."] },
     ],
-    cta: "Want to find the highest friction point first? Request a Webora Digital Website Audit.",
+    cta: "Want to find the highest friction point first? Request a Verzamar Technologies Website Audit.",
     sources: [
       { label: "Google Search guidance", url: "https://developers.google.com/search" },
       { label: "Google local ranking guidance", url: "https://support.google.com/business/answer/7091?hl=en" },

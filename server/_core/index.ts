@@ -26,7 +26,7 @@ async function startServer() {
   ]);
   app.use((req, res, next) => {
     if (req.method !== "GET" || req.path.startsWith("/api/") || req.path.startsWith("/assets/") || req.path.startsWith("/@vite") || req.path.startsWith("/@react-refresh") || req.path.startsWith("/@fs/") || req.path.startsWith("/insights/") || req.path.includes(".") || publicPaths.has(req.path)) return next();
-    res.status(404).set("X-Robots-Tag", "noindex").type("html").send("<!doctype html><html lang=\"en\"><head><meta name=\"robots\" content=\"noindex\"><title>Page not found | Webora Digital</title></head><body><h1>Page not found</h1><p>Return to <a href=\"/\">Webora Digital</a>.</p></body></html>");
+    res.status(404).set("X-Robots-Tag", "noindex").type("html").send("<!doctype html><html lang=\"en\"><head><meta name=\"robots\" content=\"noindex\"><title>Page not found | Verzamar</title></head><body><h1>Page not found</h1><p>Return to <a href=\"/\">Verzamar</a>.</p></body></html>");
   });
   // tRPC API
   app.use(

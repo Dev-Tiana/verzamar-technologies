@@ -1,8 +1,8 @@
-# Webora Digital 90 Day Launch Plan
+# Verzamar Technologies 90 Day Launch Plan
 
 ## Purpose
 
-This plan turns the redesigned website into a practical visibility and enquiry system for Webora Digital. It prioritizes Lagos and Nigeria first, while keeping the service language useful for clients in the United Kingdom, United States, Canada, Australia, Europe, and worldwide markets. It does not promise rankings, traffic, AI search inclusion, or a fixed number of leads.
+This plan turns the redesigned website into a practical visibility and enquiry system for Verzamar Technologies. It prioritizes Lagos and Nigeria first, while keeping the service language useful for clients in the United Kingdom, United States, Canada, Australia, Europe, and worldwide markets. It does not promise rankings, traffic, AI search inclusion, or a fixed number of leads.
 
 ## Days 1 to 30: Make the foundation trustworthy
 

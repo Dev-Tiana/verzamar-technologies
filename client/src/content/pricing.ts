@@ -23,7 +23,7 @@ export const pricingPackages: PricingPackage[] = [
 ];
 
 export const pricingFaqs: [string, string][] = [
-  ["How much does a website cost in 2026?", "Professional website costs vary with page count, design depth, content, integrations, platform, and revision scope. Webora Digital proposed starting prices range from $300 for a focused landing page to $3,000 for a premium website. Ecommerce and custom work are scoped around your requirements."],
+  ["How much does a website cost in 2026?", "Professional website costs vary with page count, design depth, content, integrations, platform, and revision scope. Verzamar Technologies proposed starting prices range from $300 for a focused landing page to $3,000 for a premium website. Ecommerce and custom work are scoped around your requirements."],
   ["How much does a small business website cost?", "A focused small business website can start at $700 when the scope is up to five pages and the content is ready. A fuller business website with service detail pages, portfolio, blog, booking, and stronger conversion structure starts at $1,500."],
   ["How much does a landing page cost?", "The proposed Landing Page package starts at $300 for one custom responsive page with a clear offer, contact or lead form, basic on page SEO, and testing."],
   ["How much does an ecommerce website cost?", "The proposed Ecommerce Website package starts at $5,000 for an initial setup of up to 30 products. Payment processing, shipping, platform subscriptions, tax configuration, and large catalogue work may cost extra."],

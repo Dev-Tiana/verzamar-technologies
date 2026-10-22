@@ -1,5 +1,5 @@
 export const business = {
-  name: "Webora Digital",
+  name: "Verzamar Technologies",
   tagline: "We Build Websites That Grow Businesses.",
   email: "eviokpako.c@gmail.com",
   leadEmail: "anialokpako@gmail.com",
@@ -26,17 +26,17 @@ export const projects = [
 ];
 
 export const testimonials = [
-  "Working with Webora Digital on my website was a great experience. They understood my needs, communicated clearly throughout the process, and paid attention to the details that mattered to my business. The website looks professional, is easy to navigate, and presents my business in a much better way online.",
-  "Working with Webora Digital was a great experience. They took the time to understand my business needs and delivered a professional website that represents my brand well. Communication was smooth, and I appreciated their attention to detail throughout the project.",
-  "Webora Digital did an excellent job bringing my website ideas to life. The design is clean, attractive, and easy to navigate on mobile and desktop. They listened to my requirements and made sure the website reflected my business identity.",
-  "I wanted a website that would present my business professionally and make it easier for potential customers to learn about my services. Webora Digital helped turn that vision into reality. The process was straightforward, and the final website was organized and user friendly.",
+  "Working with Verzamar Technologies on my website was a great experience. They understood my needs, communicated clearly throughout the process, and paid attention to the details that mattered to my business. The website looks professional, is easy to navigate, and presents my business in a much better way online.",
+  "Working with Verzamar Technologies was a great experience. They took the time to understand my business needs and delivered a professional website that represents my brand well. Communication was smooth, and I appreciated their attention to detail throughout the project.",
+  "Verzamar Technologies did an excellent job bringing my website ideas to life. The design is clean, attractive, and easy to navigate on mobile and desktop. They listened to my requirements and made sure the website reflected my business identity.",
+  "I wanted a website that would present my business professionally and make it easier for potential customers to learn about my services. Verzamar Technologies helped turn that vision into reality. The process was straightforward, and the final website was organized and user friendly.",
 ];
 
 export const faqs = [
   ["Do I need a website if I already use social media?", "Social platforms are useful, but your website gives your business a central place you control for services, proof, search visibility, enquiries, and bookings."],
   ["How long does a website project take?", "Your timeline depends on scope, content, feedback, and integrations. A focused launch website is usually easier to plan than a full custom platform."],
   ["Can you improve my existing website?", "Yes. Redesign, performance, messaging, mobile usability, SEO foundations, and conversion improvements are all part of the selected service direction."],
-  ["Do you offer SEO?", "Webora Digital plans to offer keyword research, technical and on page SEO, content optimisation, internal linking, structured data, performance, and conversion focused SEO."],
+  ["Do you offer SEO?", "Verzamar Technologies plans to offer keyword research, technical and on page SEO, content optimisation, internal linking, structured data, performance, and conversion focused SEO."],
   ["What happens after I enquire?", "You can choose a Free Consultation. The conversation is used to understand your business problem, clarify scope, and recommend a practical next step."],
 ];
 

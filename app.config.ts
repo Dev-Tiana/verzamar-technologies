@@ -1,3 +1,3 @@
 export default {
-  logoUrl: "https://dummyimage.com/256x256/11110f/fef300.png&text=W",
+  logoUrl: "https://files.manuscdn.com/user_upload_by_module/session_file/310519664009281314/njvFhWkuizcmTDLg.webp",
 };

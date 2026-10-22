@@ -1,6 +1,6 @@
-# Website Pricing Research for Webora Digital
+# Website Pricing Research for Verzamar Technologies
 
-Research checked on 15 October 2026. The figures below are market context, not prices copied into Webora Digital's offers.
+Research checked on 15 October 2026. The figures below are market context, not prices copied into the Verzamar Technologies offers.
 
 ## Findings
 
@@ -12,11 +12,11 @@ Tenet reports professional redesigns from about $3,000 to $160,000 plus dependin
 
 Forbes Advisor separates one time design from recurring expenses. Its 2026 guidance places professional design at $1,500 and up for many small businesses, hosting and apps around $15 to $150 per month, and maintenance around $20 to $100 annually in its general small business overview. Ecommerce platforms and payment processing add their own subscription and transaction costs.
 
-## Proposed Webora positioning
+## Proposed Verzamar positioning
 
-Webora Digital is positioned as an international boutique studio rather than a low cost template provider or an enterprise agency. The proposed starting prices sit above the cheapest freelancer references and below the upper end of boutique agency ranges. They are intended to leave room for custom messaging, responsive implementation, accessibility, testing, and a useful conversion path.
+Verzamar Technologies is positioned as an international boutique studio rather than a low cost template provider or an enterprise agency. The proposed starting prices sit above the cheapest freelancer references and below the upper end of boutique agency ranges. They are intended to leave room for custom messaging, responsive implementation, accessibility, testing, and a useful conversion path.
 
-The approved Webora starting prices are $300 for a Landing Page, $700 for a Starter Website, $1,500 for a Business Website, $3,000 for a Premium Website, $5,000 for an Ecommerce Website, and $1,000 for a Website Redesign. These figures are intentionally presented as starting prices and may be revised after a project brief. Custom Website Development remains quote based because portals, dashboards, memberships, advanced booking, integrations, security, and data requirements cannot be priced responsibly from a short card.
+The approved Verzamar starting prices are $300 for a Landing Page, $700 for a Starter Website, $1,500 for a Business Website, $3,000 for a Premium Website, $5,000 for an Ecommerce Website, and $1,000 for a Website Redesign. These figures are intentionally presented as starting prices and may be revised after a project brief. Custom Website Development remains quote based because portals, dashboards, memberships, advanced booking, integrations, security, and data requirements cannot be priced responsibly from a short card.
 
 Every figure is labelled as a starting price. Final pricing depends on the number of pages, content requirements, design complexity, integrations, platform, product catalogue, migration, feedback rounds, and any third party costs.
 
